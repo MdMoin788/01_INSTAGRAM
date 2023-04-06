@@ -7,9 +7,9 @@ import { PrivateRoutes } from './PrivateRoutes'
 
 const AppRoutes = () => {
 
-  // const token = localStorage.getItem(Constants.token);
+  const {token} = JSON.parse(localStorage.getItem("user"))  || "";
+  console.log('token', token);
 
-  let token = ''
   return (
     <BrowserRouter >
       <Routes>

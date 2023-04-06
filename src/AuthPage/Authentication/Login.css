@@ -1,19 +1,14 @@
 /* style={{ width: "25%", margin: "auto", marginTop: "10%", }} */
 .loginParent {
     margin-top: 50px;
-
 }
-
 @media screen and (min-width: 556px) {
     .loginParent {
         width: 30%;
         margin: auto;
-        margin-top: 10%;
-
-
+        margin-top: 3%;
     }
 }
-
 .ins-logo {
     cursor: not-allowed;
 }

@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 480px) {
+    .parent {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 480px) {
+    .body {
+        width: 84%;
+        height: 100vh !important;
+        position: sticky;
+        right: 0;
+    }
+}
+@media screen and (min-width: 480px) {
+    .sidebar {
+        width: 15%;
+        height: 100%;
+        border-right: 1px solid black;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+/* style={{ width: "15%", borderRight: "1px solid black", height: "100vh", position: "fixed", top: 0 }} */

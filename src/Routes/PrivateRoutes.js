@@ -1,5 +1,7 @@
 import { Route, Routes, Navigate } from 'react-router-dom'
 import Dashboard from '../Dashboard'
+import 'react-toastify/dist/ReactToastify.css';
+
 const PrivateRoutes = () => {
     // const ProfilePage = lazy(() => import('../SwapChildRoutes/ProfilePage'))
     return (    
