@@ -4,7 +4,7 @@ const Login = () => {
 
 
   return (
-    <div className='container card p-4' style={{ width: "25%", margin: "auto", marginTop: "10%", }}>
+    <div className=' card p-4' style={{ width: "25%", margin: "auto", marginTop: "10%", }}>
       <div className="row">
         {/* <!-- Pills navs --> */}
         <ul className="nav nav-pills nav-justified mb-3"  >
@@ -26,6 +26,8 @@ const Login = () => {
 
             <div className="">
               <form>
+
+                <img src="" alt="" />
                 <div className="text-center mb-3">
                   <p>Sign in with</p>
                   <button type="button" className="btn btn-link btn-floating mx-1">
