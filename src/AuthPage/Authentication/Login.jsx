@@ -6,7 +6,7 @@ const Login = () => {
 
   return (
     <div className=' container card loginParent'  >
-      <img  src="https://raw.githubusercontent.com/MdMoin788/01_INSTAGRAM/main/public/Asserts/Instagramlogo.PNG?token=GHSAT0AAAAAACA75SJEZS4BBJZNVGD74C7GZBOUZ7Q" alt="logo" />
+      <img className='ins-logo' src="https://raw.githubusercontent.com/MdMoin788/01_INSTAGRAM/main/public/Asserts/Instagramlogo.PNG?token=GHSAT0AAAAAACA75SJEZS4BBJZNVGD74C7GZBOUZ7Q" alt="logo" />
       <div className="row">
         {/* <!-- Pills navs --> */}
         {/* <ul className="nav nav-pills nav-justified mb-3"  >
