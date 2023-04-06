@@ -7,6 +7,9 @@ const Login = () => {
     <div className='container' style={{width:"40%", margin:"auto", marginTop:"10%",}}>
       <div className="row">
 
+
+
+
         {/* <!-- Pills navs --> */}
         <ul className="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
           <li className="nav-item" onClick={() => setShow(true)}>
