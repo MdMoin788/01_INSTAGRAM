@@ -1,0 +1,13 @@
+
+/* style={{ width: "25%", margin: "auto", marginTop: "10%", }} */
+
+
+@media screen and (min-width: 556px) {
+    .loginParent {
+      width: 25%;
+      margin: auto;
+      margin-top: 10%;
+
+    
+    }
+  }
