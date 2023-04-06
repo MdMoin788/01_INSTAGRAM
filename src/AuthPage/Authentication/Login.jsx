@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import"./Login.css"
+import "./Login.css"
 const Login = () => {
   const [show, setShow] = useState(true)
 
@@ -48,36 +48,38 @@ const Login = () => {
                   </button>
                 </div>
 
-                <p className="text-center">or</p>
+                <div className='d-flex justify-content-between mb-2'>
+                  <div className="text-center border mt-3" style={{ width: "50%", height: "1px" }}></div>
+                  <div className="text-center mt-1">OR</div>
+                  <div className="text-center border mt-3" style={{ width: "50%", height: "1px" }}></div>
+                </div>
 
                 {/* <!-- Email input --> */}
                 <div className="form-outline mb-2">
-                  <label className="form-label" for="loginName">Email or username</label>
-                  <input type="email" className="form-control" />
+                  <label className="form-label"  for="loginName">Email or Phone</label>
+                  <input type="email" placeholder='Email or Phone' className="form-control" />
                 </div>
 
                 {/* <!-- Password input --> */}
                 <div className="form-outline mb-2">
                   <label className="form-label" for="loginPassword">Password</label>
-                  <input type="password" className="form-control" />
+                  <input type="password" placeholder='password' className="form-control" />
                 </div>
 
                 {/* <!-- 2 column grid layout --> */}
+
+
+                {/* <!-- Submit button --> */}
+                <button className="btn btn-primary btn-block mb-4 mt-4 col-12">Sign in</button>
                 <div className="row mb-3">
 
 
-                  {/* <div className="col-md-6 d-flex justify-content-center">
-                    <a >Forgot password?</a>
-                  </div> */}
+
                   <div className="text-center">
                     <a >Forgot password?</a>
 
                   </div>
                 </div>
-
-                {/* <!-- Submit button --> */}
-                <button className="btn btn-primary btn-block mb-4 col-12">Sign in</button>
-
                 {/* <!-- Register buttons --> */}
                 <div className="text-center">
                   <p>Not a member? <span className='text-primary fs-6 ms-1 fw-bold' onClick={() => setShow(false)}>Register</span></p>
@@ -110,25 +112,38 @@ const Login = () => {
                   </button>
                 </div>
 
-                <p className="text-center">or</p>
+                <div className='d-flex justify-content-between mb-2'>
+                  <div className="text-center border mt-3" style={{ width: "50%", height: "1px" }}></div>
+                  <div className="text-center mt-1">OR</div>
+                  <div className="text-center border mt-3" style={{ width: "50%", height: "1px" }}></div>
+                </div>
 
                 {/* <!-- Email input --> */}
                 <div className="form-outline mb-2">
                   <label className="form-label" for="loginName">Email or username</label>
-                  <input type="email" id="loginName" className="form-control" />
+                  <input type="email" id="loginName" placeholder='Email or Phone' className="form-control" />
                 </div>
 
+                {/* <!-- full name input --> */}
+                <div className="form-outline mb-2">
+                  <label className="form-label" for="fullName" >Full Name</label>
+                  <input type="text" id="fullName" placeholder='Full Name' className="form-control" />
+                </div>
+                {/* <!-- user name input --> */}
+                <div className="form-outline mb-2">
+                  <label className="form-label" for="username" >User Name</label>
+                  <input type="text" id="username" placeholder='User Name' className="form-control" />
+                </div>
                 {/* <!-- Password input --> */}
                 <div className="form-outline mb-2">
-                  <label className="form-label" for="loginPassword">Password</label>
-                  <input type="password" id="loginPassword" className="form-control" />
+                  <label className="form-label" for="loginPassword" >Password</label>
+                  <input type="password" id="loginPassword" placeholder='password' className="form-control" />
                 </div>
 
 
 
                 {/* <!-- Submit button --> */}
                 <button type="submit" className="btn btn-primary btn-block mb-3 col-12 mt-4">Sign Up</button>
-
                 {/* <!-- Login buttons --> */}
                 <div className="text-center">
                   <p>Not a member ? <span className='text-primary fs-6 ms-1 fw-bold' onClick={() => setShow(true)}>Login</span></p>
