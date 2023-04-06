@@ -5,9 +5,10 @@ const Login = () => {
 
   return (
     <div className=' card p-4' style={{ width: "25%", margin: "auto", marginTop: "10%", }}>
+      <img  src="https://raw.githubusercontent.com/MdMoin788/01_INSTAGRAM/main/public/Asserts/Instagramlogo.PNG?token=GHSAT0AAAAAACA75SJEPS3HIN4RNY6RE43SZBOUIUA" alt="logo" />
       <div className="row">
         {/* <!-- Pills navs --> */}
-        <ul className="nav nav-pills nav-justified mb-3"  >
+        {/* <ul className="nav nav-pills nav-justified mb-3"  >
           <li className="nav-item ms-2" onClick={() => setShow(true)}>
             <span className={`nav-link  ${show == true && "active"}`}
             >Login</span>
@@ -16,7 +17,7 @@ const Login = () => {
             <span className={`nav-link  ${show == false && "active"}`}
             >Register</span>
           </li>
-        </ul>
+        </ul> */}
         {/* <!-- Pills navs --> */}
 
         {/* <!-- Pills content --> */}
@@ -27,8 +28,7 @@ const Login = () => {
             <div className="">
               <form>
 
-                <img src="" alt="" />
-                <div className="text-center mb-3">
+                <div className="text-center mb-3 mt-3">
                   <p>Sign in with</p>
                   <button type="button" className="btn btn-link btn-floating mx-1">
                     <i className="fab fa-facebook-f"></i>
@@ -51,7 +51,7 @@ const Login = () => {
 
                 {/* <!-- Email input --> */}
                 <div className="form-outline mb-2">
-                  <label className="form-label" for="loginName">Email or username</label> 
+                  <label className="form-label" for="loginName">Email or username</label>
                   <input type="email" className="form-control" />
                 </div>
 
@@ -79,7 +79,7 @@ const Login = () => {
 
                 {/* <!-- Register buttons --> */}
                 <div className="text-center">
-                  <p>Not a member? <a href="#!">Register</a></p>
+                  <p>Not a member? <span className='text-primary fs-6 ms-1 fw-bold' onClick={() => setShow(false)}>Register</span></p>
                 </div>
               </form>
             </div>
@@ -90,7 +90,7 @@ const Login = () => {
 
             <div className="">
               <form>
-                <div className="text-center mb-3">
+                <div className="text-center mb-3 mt-3">
                   <p>Sign Up with</p>
                   <button type="button" className="btn btn-link btn-floating mx-1">
                     <i className="fab fa-facebook-f"></i>
@@ -113,7 +113,7 @@ const Login = () => {
 
                 {/* <!-- Email input --> */}
                 <div className="form-outline mb-2">
-                  <label className="form-label" for="loginName">Email or username</label> 
+                  <label className="form-label" for="loginName">Email or username</label>
                   <input type="email" id="loginName" className="form-control" />
                 </div>
 
@@ -128,8 +128,10 @@ const Login = () => {
                 {/* <!-- Submit button --> */}
                 <button type="submit" className="btn btn-primary btn-block mb-3 col-12 mt-4">Sign Up</button>
 
-                {/* <!-- Register buttons --> */}
-
+                {/* <!-- Login buttons --> */}
+                <div className="text-center">
+                  <p>Not a member ? <span className='text-primary fs-6 ms-1 fw-bold' onClick={() => setShow(true)}>Login</span></p>
+                </div>
               </form>
             </div>
 
