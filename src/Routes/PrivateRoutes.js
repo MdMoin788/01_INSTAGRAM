@@ -16,7 +16,7 @@ const PrivateRoutes = () => {
                         <ProfilePage />
                     }
                 /> */}
-                <Route path='*' element={<Navigate to='/error/404' />} />
+                {/* <Route path='*' element={<Navigate to='/error/404' />} /> */}
             </Route>
         </Routes>
     )
