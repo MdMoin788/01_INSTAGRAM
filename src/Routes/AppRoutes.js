@@ -19,7 +19,7 @@ const AppRoutes = () => {
           {token ? (
             <>
               <Route path='/*' element={<PrivateRoutes />} />
-              {/* <Route index element={<Navigate to='/dashboard' />} /> */}
+              <Route index element={<Navigate to='/dashboard' />} />
             </>
           ) : (
             <>

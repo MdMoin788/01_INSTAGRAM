@@ -13,7 +13,7 @@ const AuthPage = () => (
       {/* <Route path='/register' element={<Login />} />
       <Route path='/login' element={<Login />} /> */}
       {/* <Route path='forgot-password' element={<ForgotPassword />} /> */}
-      <Route path='*' element={<Navigate to='/error/404' />} />
+      {/* <Route path='*' element={<Navigate to='/error/404' />} /> */}
 
     </Route>
   </Routes>
