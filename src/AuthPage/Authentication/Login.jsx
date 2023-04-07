@@ -3,7 +3,7 @@ import "./Login.css"
 // import { toast } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
 // import axios from "axios"
-const Login = () => {
+const Login = () => { 
   const [show, setShow] = useState(true)
   // user registration 
   const [register, setRegister] = useState({ email: '', password: "", full_name: '', user_name: '', token: Math.random() })

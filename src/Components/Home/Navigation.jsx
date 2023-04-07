@@ -7,42 +7,42 @@ const Navigation = () => {
             <div className='ms-4  sidebanavigation '>
                 {/* option  */}
                 <div className='optionsShow mb-3 '>
-                    <i class="fa-solid fa-house fs-5"></i>
+                    <i className="fa-solid fa-house fs-5"></i>
                     <p className='ms-2 TextShowHide '>Home</p>
                 </div>
                 {/* option  */}
                 <div className='optionsShow mb-3 '>
-                    <i class="fa-solid fa-magnifying-glass fs-5  mt-1"></i>
+                    <i className="fa-solid fa-magnifying-glass fs-5  mt-1"></i>
                     <p className='ms-2 TextShowHide '>Search</p>
                 </div>
                 {/* option  */}
                 <div className='optionsHide mb-3  show '>
-                    <i class="fa-sharp fa-regular fa-compass fs-5 mt-1 TextShowHide"></i>
+                    <i className="fa-sharp fa-regular fa-compass fs-5 mt-1 TextShowHide"></i>
                     <p className='ms-2 TextShowHide '>Explore</p>
                 </div>
                 {/* option  */}
                 <div className='optionsShow mb-3  '>
-                    <i class="fa-solid fa-video fs-5 mt-1"></i>
+                    <i className="fa-solid fa-video fs-5 mt-1"></i>
                     <p className='ms-2 TextShowHide '>Reeals</p>
                 </div>
                 {/* option  */}
                 <div className='optionsHide mb-3 show  '>
-                    <i class="fa-regular fa-message fs-5 mt-1 TextShowHide"></i>
+                    <i className="fa-regular fa-message fs-5 mt-1 TextShowHide"></i>
                     <p className='ms-2 TextShowHide '>Messages</p>
                 </div>
                 {/* option  */}
                 <div className='optionsHide show mb-3  '>
-                    <i class="fa-regular fa-heart fs-5 mt-1 TextShowHide"></i>
+                    <i className="fa-regular fa-heart fs-5 mt-1 TextShowHide"></i>
                     <p className='ms-2 TextShowHide '>Notification</p>
                 </div>
                 {/* option  */}
                 <div className='optionsShow mb-3 '>
-                    <i class="fa-sharp fa-solid fa-plus mt-1 fs-5"></i>
+                    <i className="fa-sharp fa-solid fa-plus mt-1 fs-5"></i>
                     <p className='ms-2 TextShowHide '>Create</p>
                 </div>
                 {/* option  */}
                 <div className='optionsShow mb-3  '>
-                    <i class="fa-sharp fa-regular fa-circle mt-1 fs-2"></i>
+                    <i className="fa-sharp fa-regular fa-circle mt-1 fs-2"></i>
                     <p className='ms-2 TextShowHide '>Profile</p>
                 </div>
                 {/* option  */}

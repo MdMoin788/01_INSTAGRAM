@@ -1,6 +1,6 @@
-import { Navigate, Outlet, Route, Routes } from "react-router-dom"
+import {  Outlet, Route, Routes } from "react-router-dom"
 import AuthLayout from "./Authentication/AuthLayout.jsx"
-import Login from "./Authentication/Login.jsx"
+// import Login from "./Authentication/Login.jsx"
 
 const AuthRenderChildInParent = () => {
   return <Outlet />
