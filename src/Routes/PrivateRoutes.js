@@ -9,7 +9,7 @@ const PrivateRoutes = () => {
             {/* element={<MasterLayout />} */}
             <Route   >
                 {/* Redirect to Dashboard after success login/registartion */}
-                <Route path='/dashboard' index element={<Dashboard />} />
+                <Route path='/dashboard'  element={<Dashboard />} />
                 {/* <Route
                     path='/themes*'
                     element={
