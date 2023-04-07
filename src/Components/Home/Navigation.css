@@ -1,9 +1,7 @@
 @media screen and (max-width: 480px) {
     .ins-logo {
-
         display: none;
         ;
-
     }
 }
 /* laptop responsive  */
@@ -14,9 +12,13 @@
         height: 100%;
         flex-direction: column;
     }
-   
+    .optionsShow {
+        display: flex;
+    }
+    .optionsHide {
+        display: flex;
+    }
 }
-
 /* mobile responsive  */
 @media screen and (max-width: 480px) {
     .sidebanavigation {
@@ -26,13 +28,10 @@
         justify-content: space-between;
         /* flex-direction: column; */
     }
-
-    .show {
+    .TextShowHide {
         display: none;
     }
+    .optionsHide {
+        display: none
+    }
 }
-
-
-
-
-

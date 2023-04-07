@@ -14,7 +14,7 @@ const Error404 = () => {
         <h3 className='fw-bold mb-10 text-center mb-4' style={{ color: '#A3A3C7' }}>
           Seems there is nothing here
         </h3>
-        <Link to='/' className='btn btn-primary '>
+        <Link to='/dashboard' className='btn btn-primary '>
           Return Home
         </Link>
       </div>

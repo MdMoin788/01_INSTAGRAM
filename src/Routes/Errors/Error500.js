@@ -8,7 +8,7 @@ const Error500= () => {
       <div className='d-flex flex-column flex-column-fluid'>
         {/*begin::Content*/}
         <div className='d-flex flex-column flex-column-fluid text-center p-10 py-lg-15'>
-          <Link to='/' className='mb-10 pt-lg-10'>
+          <Link to='/dashboard' className='mb-10 pt-lg-10'>
             <img
               alt='Logo'
               src={ToAbsoluteUrl('/media/logos/default.svg')}
@@ -23,7 +23,7 @@ const Error500= () => {
               Please try again later.
             </div>
             <div className='text-center'>
-              <Link to='/' className='btn btn-lg btn-primary fw-bolder'>
+              <Link to='/dashboard' className='btn btn-lg btn-primary fw-bolder'>
                 Go to homepage
               </Link>
             </div>
@@ -35,7 +35,7 @@ const Error500= () => {
             }}
           ></div>
         </div>
-        <div className='d-flex flex-center flex-column-auto p-10'>
+        {/* <div className='d-flex flex-center flex-column-auto p-10'>
           <div className='d-flex align-items-center fw-bold fs-6'>
             <a href='https://keenthemes.com' className='text-muted text-hover-primary px-2'>
               About
@@ -47,7 +47,7 @@ const Error500= () => {
               Contact Us
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

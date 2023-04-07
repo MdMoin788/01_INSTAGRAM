@@ -5,47 +5,53 @@ const Navigation = () => {
         <>
             <img className='ins-logo px-0 mb-5' style={{ width: "100%" }} src="https://github.com/MdMoin788/ALL_IMAGES_PREFESSIONALLY/blob/main/AssertsInsta/Instagramlogo.png?raw=true" alt="logo" />
             <div className='ms-4  sidebanavigation '>
-                <div className='d-flex mb-3'>
+                {/* option  */}
+                <div className='optionsShow mb-3 '>
                     <i class="fa-solid fa-house fs-5"></i>
-                    <p className='ms-2 show '>Home</p>
+                    <p className='ms-2 TextShowHide '>Home</p>
                 </div>
-                <div className='d-flex mb-3'>
+                {/* option  */}
+                <div className='optionsShow mb-3 '>
                     <i class="fa-solid fa-magnifying-glass fs-5  mt-1"></i>
-                    <p className='ms-2 show '>Search</p>
+                    <p className='ms-2 TextShowHide '>Search</p>
                 </div>
-                <div className='d-flex mb-3 '>
-                    <i class="fa-sharp fa-regular fa-compass fs-5 mt-1 show"></i>
-                    <p className='ms-2 show '>Explore</p>
+                {/* option  */}
+                <div className='optionsHide mb-3  show '>
+                    <i class="fa-sharp fa-regular fa-compass fs-5 mt-1 TextShowHide"></i>
+                    <p className='ms-2 TextShowHide '>Explore</p>
                 </div>
-                <div className='d-flex mb-3 '>
+                {/* option  */}
+                <div className='optionsShow mb-3  '>
                     <i class="fa-solid fa-video fs-5 mt-1"></i>
-                    <p className='ms-2 show '>Reeals</p>
+                    <p className='ms-2 TextShowHide '>Reeals</p>
                 </div>
-                <div className='d-flex mb-3 '>
-                    <i class="fa-regular fa-message fs-5 mt-1 show"></i>
-                    <p className='ms-2 show '>Messages</p>
+                {/* option  */}
+                <div className='optionsHide mb-3 show  '>
+                    <i class="fa-regular fa-message fs-5 mt-1 TextShowHide"></i>
+                    <p className='ms-2 TextShowHide '>Messages</p>
                 </div>
-                <div className='d-flex mb-3 '>
-                    <i class="fa-regular fa-heart fs-5 mt-1 show"></i>
-                    <p className='ms-2 show '>Notification</p>
+                {/* option  */}
+                <div className='optionsHide show mb-3  '>
+                    <i class="fa-regular fa-heart fs-5 mt-1 TextShowHide"></i>
+                    <p className='ms-2 TextShowHide '>Notification</p>
                 </div>
-                <div className='d-flex mb-3'>
+                {/* option  */}
+                <div className='optionsShow mb-3 '>
                     <i class="fa-sharp fa-solid fa-plus mt-1 fs-5"></i>
-                    <p className='ms-2 show '>Create</p>
+                    <p className='ms-2 TextShowHide '>Create</p>
                 </div>
-                <div className='d-flex mb-3 '>
+                {/* option  */}
+                <div className='optionsShow mb-3  '>
                     <i class="fa-sharp fa-regular fa-circle mt-1 fs-2"></i>
-                    <p className='ms-2 show '>Profile</p>
+                    <p className='ms-2 TextShowHide '>Profile</p>
                 </div>
-                <div className='d-flex mb-3 mt-4 '>
-                    <i className="fa-solid fa-bars fs-5 mt-1 show"></i>
-                    <p className='ms-2 show '>More</p>
+                {/* option  */}
+                <div className='optionsHide mb-3  mt-4 '>
+                    <i className="fa-solid fa-bars fs-5 mt-1 TextShowHide"></i>
+                    <p className='ms-2 TextShowHide '>More</p>
                 </div>
-
             </div>
-
         </>
     )
 }
-
 export default Navigation
